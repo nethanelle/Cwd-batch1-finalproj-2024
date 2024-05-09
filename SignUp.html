@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/3b049590d9.js" crossorigin="anonymous"></script>
+     <!-- font awesome cdnjs -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- custom css -->
+   <link rel="stylesheet" href="style.css">
+   <!-- Fonts Css -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Subscription</title>
+</head>
+<body>
+
+  <div class="background-image">
+   <div class="content">
+      <div class="card-panel brown lighten-2">
+            <i class="fa-regular fa-circle-user"></i>
+      </div>
+      <div class="divider"></div>
+  <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">mode_edit</i>
+            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <label for="icon_prefix2">Feedback</label>
+          </div>
+        </div>
+  
+      </form>
+    </div>
+  </div>
+   </div>
+
+    <footer class="page-footer white z-depth-0">
+      <div class="container">
+          <div class="row grey-text">
+              <div class="col s6 m3">
+                  <img src="Images/jesus1.png" alt="" class="responsive-img">
+              <p class="footer-text blue-text">Saved By His Grace</p>
+              </div>
+              <div class="col s6 m3">
+                  <h6 class="black-text">About</h6>
+                  <a href="" id="Jesuslife" class="grey-text">Life Of Jesus</a>
+                  <br>
+                  <a href="" class="grey-text">Crucifixion</a>
+                  <br>
+                  <a href="" class="grey-text">Bible Verse</a>
+              </div>
+              <div class="col s6 m3">
+                  <h6 class="black-text">Credits</h6>
+                  <a href="" class="grey-text">Missionbibleclass.org
+                  </a>
+                  <br>
+                  <a href="" class="grey-text">Churchofjesuschrist.org
+                  </a>
+                  <br>
+                  <a href="" class="grey-text">livingontheedge.org</a>
+              </div>
+          <div class="col s6 m3">
+                  <h6 class="black-text">Contact</h6>
+                  <a href="" class="grey-text"><i class="fa-brands fa-square-instagram"></i></a>
+                  <br>
+                  <a href="" class="grey-text"><i class="fa-brands fa-square-facebook"></i></a>
+                  <br>
+                  <a href="" class="grey-text"><i class="fa-solid fa-envelope"></i></a>
+              </div>
+          </div>
+      </div>
+
+      <!-- jquery CDN -->
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script>
+         $(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
+  });
+      </script>
+</body>
+</html>
